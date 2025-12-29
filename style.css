@@ -1,0 +1,72 @@
+/* Basic CSS for styling the website */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #800000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000080;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #333;
+}
+
+section img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
